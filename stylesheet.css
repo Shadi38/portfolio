@@ -223,8 +223,9 @@ margin-top: 5px;
 }
 
 #portfolio{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
 }
 .Project-div{
     display: flex;
